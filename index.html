@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Moraes Drinks — Experiência completa de bar para eventos. Drinks artesanais, bartender profissional, open bar e atendimento personalizado no Rio de Janeiro e Costa Verde.">
+  <meta name="keywords" content="bartender para eventos, drinks artesanais, open bar, Moraes Drinks, Rio de Janeiro, Costa Verde, casamento, aniversário, festas">
+  <title>Moraes Drinks — Drinks Artesanais para Eventos</title>
+
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon (emoji fallback) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍹</text></svg>">
+</head>
+<body>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <img src="images/logo.svg" alt="Moraes Drinks Logo" style="height: 38px; width: auto; margin-top: 5px;">
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#como-funciona">Como Funciona</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato" class="nav-cta">Solicite Orçamento</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Bartender para Eventos
+        </div>
+        <h1 class="hero-title">
+          <span class="line">Transforme seu</span>
+          <span class="line">evento em uma</span>
+          <span class="line line-italic"><span class="gold-text">experiência</span> única</span>
+        </h1>
+        <p class="hero-description">
+          Drinks artesanais, sabores exclusivos e atendimento personalizado que fazem seus convidados lembrarem de cada momento.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/5521981618779?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20meu%20evento." class="btn-primary" id="hero-cta-whatsapp" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            Fale no WhatsApp
+          </a>
+          <a href="#servicos" class="btn-outline" id="hero-cta-services">
+            Ver Pacotes
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="images/hero-bartender.jpg" alt="Bartender Moraes Drinks preparando drink artesanal" id="hero-image">
+          <div class="hero-image-overlay"></div>
+        </div>
+        <div class="hero-stat-card">
+          <div class="stat-number">150+</div>
+          <div class="stat-label">Eventos realizados</div>
+        </div>
+        <div class="hero-stat-card">
+          <div class="stat-number">⭐ 5.0</div>
+          <div class="stat-label">Avaliação dos clientes</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ABOUT SECTION
+       ============================================ -->
+  <section class="about section-padding" id="sobre">
+    <div class="container">
+      <div class="about-image-group reveal">
+        <div class="about-img-main">
+          <img src="images/about-bar.jpg" alt="Bar Moraes Drinks montado em evento" id="about-img-main">
+        </div>
+        <div class="about-img-secondary">
+          <img src="images/about-drinks.jpg" alt="Drinks artesanais coloridos" id="about-img-secondary">
+        </div>
+        <div class="about-experience-badge">
+          <span class="number">RJ</span>
+          <span class="text">Costa<br>Verde</span>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <div class="section-label reveal">Sobre Nós</div>
+        <h2 class="section-title reveal reveal-delay-1">Mais que drinks,<br>criamos <span class="gold-text">momentos</span></h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          A Moraes Drinks trabalha levando uma experiência completa de drinks para eventos, com atendimento personalizado, drinks artesanais e sabores diferenciados. Nosso objetivo é transformar cada festa em um momento marcante, unindo qualidade, visual dos drinks e interação com os convidados.
+        </p>
+
+        <div class="about-features reveal reveal-delay-3">
+          <div class="about-feature">
+            <span class="about-feature-icon">🍸</span>
+            <div>
+              <h4>Drinks Artesanais</h4>
+              <p>Preparados na hora com frutas selecionadas</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <span class="about-feature-icon">✨</span>
+            <div>
+              <h4>Visual Diferenciado</h4>
+              <p>Drinks coloridos e apresentação premium</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <span class="about-feature-icon">🎉</span>
+            <div>
+              <h4>Experiência Interativa</h4>
+              <p>Energia e interação com os convidados</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <span class="about-feature-icon">🏖️</span>
+            <div>
+              <h4>RJ & Costa Verde</h4>
+              <p>Atendemos toda região com dedicação</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       HOW IT WORKS
+       ============================================ -->
+  <section class="how-it-works section-padding" id="como-funciona">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label reveal">Como Funciona</div>
+        <h2 class="section-title reveal reveal-delay-1">Do primeiro contato<br>ao <span class="gold-text">brinde perfeito</span></h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Um processo simples e transparente para você curtir sem preocupação
+        </p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card reveal">
+          <div class="step-number">1</div>
+          <h3>Contato</h3>
+          <p>Entre em contato pelo WhatsApp com a data, local, quantidade de pessoas e tipo do evento.</p>
+        </div>
+        <div class="step-card reveal reveal-delay-1">
+          <div class="step-number">2</div>
+          <h3>Orçamento</h3>
+          <p>Montamos o pacote ideal ou criamos algo exclusivo para o seu evento com orçamento personalizado.</p>
+        </div>
+        <div class="step-card reveal reveal-delay-2">
+          <div class="step-number">3</div>
+          <h3>Confirmação</h3>
+          <p>Após aprovação, reservamos a data com sinal de 30%. Tudo organizado para o grande dia.</p>
+        </div>
+        <div class="step-card reveal reveal-delay-3">
+          <div class="step-number">4</div>
+          <h3>O Evento</h3>
+          <p>A equipe chega antes para montar o bar e preparar tudo. Drinks na hora com qualidade e energia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SERVICES SECTION
+       ============================================ -->
+  <section class="services section-padding" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label reveal">Nossos Serviços</div>
+        <h2 class="section-title reveal reveal-delay-1">Tudo para o seu<br><span class="gold-text">bar perfeito</span></h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Oferecemos pacotes flexíveis que se adaptam ao tamanho e estilo do seu evento
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">🍹</div>
+          <h3>Bartender para Eventos</h3>
+          <p>Bartender profissional com experiência em eventos sociais, preparando drinks na hora com apresentação impecável.</p>
+          <div class="service-tags">
+            <span class="service-tag">Aniversários</span>
+            <span class="service-tag">Casamentos</span>
+            <span class="service-tag">Corporativos</span>
+          </div>
+        </div>
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon">🥂</div>
+          <h3>Open Bar Completo</h3>
+          <p>Open bar com drinks alcoólicos e sem álcool, frutas, copos, canudos e tudo incluso conforme o pacote escolhido.</p>
+          <div class="service-tags">
+            <span class="service-tag">Bebidas inclusas</span>
+            <span class="service-tag">Frutas</span>
+            <span class="service-tag">Estrutura</span>
+          </div>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon">🎨</div>
+          <h3>Drinks Autorais</h3>
+          <p>Criações exclusivas com sabores diferenciados, drinks coloridos e combinações únicas que encantam os convidados.</p>
+          <div class="service-tags">
+            <span class="service-tag">Exclusivos</span>
+            <span class="service-tag">Personalizados</span>
+            <span class="service-tag">Autorais</span>
+          </div>
+        </div>
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon">🍋</div>
+          <h3>Caipirinhas & Caipiroscas</h3>
+          <p>As clássicas caipirinhas e caipiroscas preparadas com frutas frescas selecionadas e cachaça/vodka de qualidade.</p>
+          <div class="service-tags">
+            <span class="service-tag">Frutas frescas</span>
+            <span class="service-tag">Clássicos</span>
+            <span class="service-tag">Sem álcool</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Packages -->
+      <div class="section-header" style="margin-top: 2rem;">
+        <h3 class="section-title reveal" style="font-size: clamp(1.5rem, 3vw, 2rem);">Nossos <span class="gold-text">Pacotes</span></h3>
+      </div>
+
+      <div class="packages-grid">
+        <div class="package-card reveal">
+          <span class="package-emoji">🥤</span>
+          <h3 class="package-name">Simples</h3>
+          <p class="package-desc">Ideal para eventos pequenos e reuniões intimistas</p>
+          <ul class="package-includes">
+            <li>Bartender profissional</li>
+            <li>Drinks clássicos</li>
+            <li>Copos descartáveis</li>
+            <li>Atendimento por 4h</li>
+          </ul>
+          <a href="https://wa.me/5521981618779?text=Olá!%20Tenho%20interesse%20no%20pacote%20Simples." class="package-cta" target="_blank" rel="noopener">Solicitar Orçamento</a>
+        </div>
+
+        <div class="package-card reveal reveal-delay-1">
+          <span class="package-emoji">🍸</span>
+          <h3 class="package-name">Promocional</h3>
+          <p class="package-desc">Melhor custo-benefício para festas e aniversários</p>
+          <ul class="package-includes">
+            <li>Bartender profissional</li>
+            <li>Drinks alcoólicos e sem álcool</li>
+            <li>Frutas selecionadas</li>
+            <li>Copos e canudos</li>
+          </ul>
+          <a href="https://wa.me/5521981618779?text=Olá!%20Tenho%20interesse%20no%20pacote%20Promocional." class="package-cta" target="_blank" rel="noopener">Solicitar Orçamento</a>
+        </div>
+
+        <div class="package-card featured reveal reveal-delay-2">
+          <span class="package-emoji">🍹</span>
+          <h3 class="package-name">Gourmet</h3>
+          <p class="package-desc">Experiência completa com drinks autorais e diferenciados</p>
+          <ul class="package-includes">
+            <li>Bartender profissional</li>
+            <li>Drinks autorais e clássicos</li>
+            <li>Bebidas inclusas</li>
+            <li>Frutas, copos e canudos</li>
+            <li>Menu personalizado</li>
+          </ul>
+          <a href="https://wa.me/5521981618779?text=Olá!%20Tenho%20interesse%20no%20pacote%20Gourmet." class="package-cta" target="_blank" rel="noopener">Solicitar Orçamento</a>
+        </div>
+
+        <div class="package-card reveal reveal-delay-3">
+          <span class="package-emoji">👑</span>
+          <h3 class="package-name">Premium</h3>
+          <p class="package-desc">O melhor para casamentos e grandes eventos</p>
+          <ul class="package-includes">
+            <li>Equipe de bartenders</li>
+            <li>Drinks autorais exclusivos</li>
+            <li>Open bar completo</li>
+            <li>Toda estrutura inclusa</li>
+            <li>Decoração do bar</li>
+            <li>Consultoria personalizada</li>
+          </ul>
+          <a href="https://wa.me/5521981618779?text=Olá!%20Tenho%20interesse%20no%20pacote%20Premium." class="package-cta" target="_blank" rel="noopener">Solicitar Orçamento</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       DIFFERENTIALS SECTION
+       ============================================ -->
+  <section class="differentials section-padding" id="diferenciais">
+    <div class="container">
+      <div class="diff-content">
+        <div class="section-label reveal">Por que nos escolher</div>
+        <h2 class="section-title reveal reveal-delay-1">O que torna a<br>Moraes Drinks <span class="gold-text">diferente</span></h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Não servimos apenas drinks. Entregamos visual, sabor, atendimento e energia que transformam qualquer evento.
+        </p>
+
+        <div class="diff-list">
+          <div class="diff-item reveal">
+            <div class="diff-icon">🎨</div>
+            <div>
+              <h4>Drinks Artesanais & Autorais</h4>
+              <p>Sabores diferenciados e combinações exclusivas criadas para surpreender seus convidados.</p>
+            </div>
+          </div>
+          <div class="diff-item reveal reveal-delay-1">
+            <div class="diff-icon">🤝</div>
+            <div>
+              <h4>Atendimento Personalizado</h4>
+              <p>Cada evento é único. Entendemos seu estilo e criamos a experiência perfeita para você.</p>
+            </div>
+          </div>
+          <div class="diff-item reveal reveal-delay-2">
+            <div class="diff-icon">✨</div>
+            <div>
+              <h4>Visual & Apresentação</h4>
+              <p>Drinks coloridos, preparados na hora com frutas naturais e apresentação que impressiona.</p>
+            </div>
+          </div>
+          <div class="diff-item reveal reveal-delay-3">
+            <div class="diff-icon">🔥</div>
+            <div>
+              <h4>Energia & Interação</h4>
+              <p>Criamos uma experiência animada, aproximando os convidados com drinks e atendimento marcante.</p>
+            </div>
+          </div>
+          <div class="diff-item reveal reveal-delay-4">
+            <div class="diff-icon">📸</div>
+            <div>
+              <h4>+28 Vídeos de Eventos</h4>
+              <p>Acompanhe nosso trabalho no Instagram com mais de 28 vídeos de festas, casamentos e praia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="diff-visual reveal">
+        <div class="diff-image">
+          <img src="images/diff-drinks.jpg" alt="Drinks coloridos Moraes Drinks" id="diff-img">
+        </div>
+        <div class="diff-quote">
+          <p>"O que faz um evento ficar memorável? Boa energia, drinks diferenciados e experiência com os convidados."</p>
+          <span>— Moraes Drinks</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       EVENTS / NUMBERS SECTION
+       ============================================ -->
+  <section class="events section-padding" id="eventos">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label reveal">Nossos Eventos</div>
+        <h2 class="section-title reveal reveal-delay-1">Números que <span class="gold-text">falam por si</span></h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          De pequenas reuniões a grandes celebrações, cada evento é tratado com dedicação total
+        </p>
+      </div>
+
+      <!-- Stats -->
+      <div class="events-stats">
+        <div class="event-stat reveal">
+          <div class="stat-value" data-target="150">0</div>
+          <div class="stat-name">Eventos Realizados</div>
+        </div>
+        <div class="event-stat reveal reveal-delay-1">
+          <div class="stat-value" data-target="150">0</div>
+          <div class="stat-name">Convidados por Evento</div>
+        </div>
+        <div class="event-stat reveal reveal-delay-2">
+          <div class="stat-value" data-target="28">0</div>
+          <div class="stat-name">Vídeos no Instagram</div>
+        </div>
+        <div class="event-stat reveal reveal-delay-3">
+          <div class="stat-value" data-target="100" data-suffix="%">0</div>
+          <div class="stat-name">Satisfação dos Clientes</div>
+        </div>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="events-gallery">
+        <div class="gallery-item reveal">
+          <video src="videos/video 1.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; min-height: 250px;"></video>
+          <div class="gallery-overlay">
+            <h4>Nossos Eventos</h4>
+            <p>A energia que entregamos na sua festa</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-1">
+          <video src="videos/video 2.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; min-height: 250px;"></video>
+          <div class="gallery-overlay">
+            <h4>Drinks e Animação</h4>
+            <p>Visual e sabor que impressionam</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-2">
+          <img src="images/event-3.jpg" alt="Evento Moraes Drinks - Praia" id="gallery-3">
+          <div class="gallery-overlay">
+            <h4>Eventos na Praia</h4>
+            <p>Drinks refrescantes na Costa Verde</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-1">
+          <img src="images/event-4.jpg" alt="Evento Moraes Drinks - Confraternização" id="gallery-4">
+          <div class="gallery-overlay">
+            <h4>Confraternizações</h4>
+            <p>Open bar para sua empresa</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-2">
+          <img src="images/event-5.jpg" alt="Evento Moraes Drinks - Drinks" id="gallery-5">
+          <div class="gallery-overlay">
+            <h4>Drinks Autorais</h4>
+            <p>Criações exclusivas e sabores únicos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TESTIMONIALS SECTION
+       ============================================ -->
+  <section class="testimonials section-padding" id="depoimentos">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label reveal">Depoimentos</div>
+        <h2 class="section-title reveal reveal-delay-1">O que nossos <span class="gold-text">clientes dizem</span></h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Qualidade dos drinks, atendimento e apresentação são os pontos mais elogiados
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-quote-icon">"</div>
+          <p class="testimonial-text">Contratei a Moraes Drinks para o meu aniversário de 30 anos e foi simplesmente incrível! Os drinks estavam maravilhosos e todos os convidados amaram. Super recomendo!</p>
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AF</div>
+            <div>
+              <div class="testimonial-name">Amanda Ferreira</div>
+              <div class="testimonial-event">Aniversário de 30 anos</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="testimonial-quote-icon">"</div>
+          <p class="testimonial-text">Tivemos a Moraes Drinks no nosso casamento e foi o diferencial da festa! O bartender trouxe energia, os drinks autorais foram um sucesso e a apresentação impecável.</p>
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RC</div>
+            <div>
+              <div class="testimonial-name">Rafael & Camila</div>
+              <div class="testimonial-event">Casamento em Angra dos Reis</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-2">
+          <div class="testimonial-quote-icon">"</div>
+          <p class="testimonial-text">Profissionalismo nota 10! A equipe chegou cedo, organizou tudo e os drinks com frutas naturais fizeram o maior sucesso na confraternização da empresa. Voltaremos a contratar!</p>
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">LS</div>
+            <div>
+              <div class="testimonial-name">Lucas Santos</div>
+              <div class="testimonial-event">Confraternização empresarial</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FAQ SECTION
+       ============================================ -->
+  <section class="faq section-padding" id="faq">
+    <div class="container">
+      <div class="faq-content">
+        <div class="section-label reveal">Perguntas Frequentes</div>
+        <h2 class="section-title reveal reveal-delay-1">Tire suas<br><span class="gold-text">dúvidas</span></h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Confira as perguntas mais frequentes sobre nossos serviços e tire todas as suas dúvidas antes de contratar.
+        </p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item active reveal">
+          <button class="faq-question" id="faq-q-1">
+            Como funciona o processo de contratação?
+            <span class="faq-toggle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              É simples! Você entra em contato pelo WhatsApp, informa a data, local, quantidade de pessoas e tipo do evento. Montamos o orçamento ideal e, após aprovação, reservamos a data com sinal de 30%.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-1">
+          <button class="faq-question" id="faq-q-2">
+            Vocês trabalham com pacotes prontos ou personalizado?
+            <span class="faq-toggle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Trabalhamos com os dois formatos! Temos pacotes promocionais (Simples, Promocional, Gourmet e Premium) e também montamos orçamentos 100% personalizados para o seu evento.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-2">
+          <button class="faq-question" id="faq-q-3">
+            O que está incluso nos pacotes?
+            <span class="faq-toggle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Dependendo do pacote escolhido, pode incluir: bebidas, frutas selecionadas, copos, canudos, drinks alcoólicos, drinks sem álcool, drinks autorais e toda estrutura necessária. O gelo normalmente fica por conta do cliente.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-3">
+          <button class="faq-question" id="faq-q-4">
+            Quantas pessoas vocês atendem?
+            <span class="faq-toggle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Atendemos eventos de pequeno, médio e grande porte, com estrutura para até 150 convidados, mantendo qualidade e agilidade. O tamanho médio dos eventos fica entre 50 e 150 convidados.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-4">
+          <button class="faq-question" id="faq-q-5">
+            Quais regiões vocês atendem?
+            <span class="faq-toggle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Atendemos Rio de Janeiro e toda região da Costa Verde, incluindo Angra dos Reis, Mangaratiba, Paraty e região.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" id="faq-q-6">
+            Com quanto tempo de antecedência devo contratar?
+            <span class="faq-toggle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Normalmente nossos clientes contratam entre 15 dias e 3 meses antes do evento. Recomendamos o quanto antes para garantir a disponibilidade da data.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" id="faq-q-7">
+            Vocês fazem drinks sem álcool?
+            <span class="faq-toggle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Sim! Oferecemos drinks sem álcool deliciosos, garantindo que todos os convidados tenham uma experiência incrível, independente de consumir ou não bebidas alcoólicas.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" id="faq-q-8">
+            Como funciona o cancelamento?
+            <span class="faq-toggle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              O sinal pago na reserva serve para garantir a data na agenda e cobrir a organização dos materiais do evento. Recomendamos conversar conosco o quanto antes em caso de necessidade de alteração.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CTA / CONTACT SECTION
+       ============================================ -->
+  <section class="cta-section section-padding" id="contato">
+    <div class="container">
+      <div class="cta-box">
+        <div class="section-label reveal">Pronto para a festa?</div>
+        <h2 class="cta-title reveal reveal-delay-1">
+          Solicite seu <span class="gold-text">orçamento</span><br>agora mesmo
+        </h2>
+        <p class="cta-description reveal reveal-delay-2">
+          Entre em contato pelo WhatsApp, informe a data, local, quantidade de pessoas e tipo do evento. Respondemos rápido e montamos o pacote ideal para sua festa.
+        </p>
+
+        <div class="cta-actions reveal reveal-delay-3">
+          <a href="https://wa.me/5521981618779?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20meu%20evento.%0A%0AData:%0ALocal:%0AQuantidade%20de%20pessoas:%0ATipo%20do%20evento:" class="btn-whatsapp" id="cta-whatsapp" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chamar no WhatsApp
+          </a>
+          <a href="#servicos" class="btn-outline" id="cta-packages">
+            Ver Pacotes
+          </a>
+        </div>
+
+        <div class="cta-info reveal reveal-delay-4">
+          <div class="cta-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Rio de Janeiro & Costa Verde
+          </div>
+          <div class="cta-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Resposta rápida
+          </div>
+          <div class="cta-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Reserva com 30% de sinal
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">
+          <img src="images/logo.svg" alt="Moraes Drinks Logo" style="height: 38px; width: auto; margin-top: 5px;">
+        </a>
+        <p>Experiência completa de drinks para eventos. Drinks artesanais, sabores exclusivos e atendimento que transforma cada festa em um momento marcante.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/moraisvidadecamelo" target="_blank" aria-label="Instagram" id="social-instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://wa.me/5521981618779" aria-label="WhatsApp" id="social-whatsapp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Navegação</h4>
+        <ul class="footer-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#como-funciona">Como Funciona</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Serviços</h4>
+        <ul class="footer-links">
+          <li><a href="#servicos">Bartender para Eventos</a></li>
+          <li><a href="#servicos">Open Bar</a></li>
+          <li><a href="#servicos">Drinks Autorais</a></li>
+          <li><a href="#servicos">Caipirinhas</a></li>
+          <li><a href="#servicos">Pacotes</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contato</h4>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/5521981618779" target="_blank">WhatsApp</a></li>
+          <li><a href="https://www.instagram.com/moraisvidadecamelo" target="_blank">Instagram</a></li>
+          <li><a href="#faq">Perguntas Frequentes</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© 2026 Moraes Drinks. Todos os direitos reservados.</p>
+        <p>Rio de Janeiro & Costa Verde</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/5521981618779?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Moraes%20Drinks." class="whatsapp-float" id="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- ============================================
+       JAVASCRIPT
+       ============================================ -->
+  <script src="script.js"></script>
+</body>
+</html>

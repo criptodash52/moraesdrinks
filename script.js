@@ -212,4 +212,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // ---- Mobile Background Slider Auto-Play ----
+  const slides = document.querySelectorAll('#hero-slider .slide');
+  if (slides.length > 0) {
+    let currentSlide = 0;
+    
+    // Troca de imagem a cada 4 segundos (4000 milissegundos)
+    setInterval(() => {
+      // Remove a classe active da imagem atual
+      slides[currentSlide].classList.remove('active');
+      
+      // Calcula qual é a próxima imagem
+      currentSlide = (currentSlide + 1) % slides.length;
+      
+      // Adiciona a classe active na nova imagem
+      slides[currentSlide].classList.add('active');
+    }, 4000);
+  }
+
 });
